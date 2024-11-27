@@ -19,4 +19,5 @@ class UserBehavior(TaskSet):
 
 class WebsiteUser(HttpUser):
     tasks = [UserBehavior]
+    host = "http://127.0.0.1:8000"  # URL de base de votre application
     wait_time = between(1, 5)  # Temps d'attente aléatoire entre 1 et 5 secondes

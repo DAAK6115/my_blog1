@@ -1,4 +1,3 @@
-
 import pytest
 from django.core.files.uploadedfile import SimpleUploadedFile
 from elenizado.models import Cours, Video, Categorie
